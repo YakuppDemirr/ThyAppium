@@ -1,0 +1,85 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 2390milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2390"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56379"}
+{"logLevel":"info","message":"Listening on port:56379"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.ucusAra' and 'com.testinium.thy.StepImplementation.ucusAra'"}
+{"logLevel":"debug","message":"Found Uygun ucus ara in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.ucusSec' and 'com.testinium.thy.StepImplementation.ucusSec'"}
+{"logLevel":"debug","message":"Found Ucus Sec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.uygulamaAc' and 'com.testinium.thy.StepImplementation.uygulamaAc'"}
+{"logLevel":"debug","message":"Found Thy Uygulamasını Aç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.biletAl' and 'com.testinium.thy.StepImplementation.biletAl'"}
+{"logLevel":"debug","message":"Found Bilet Al Butonu tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.ucusOzetDevam' and 'com.testinium.thy.StepImplementation.ucusOzetDevam'"}
+{"logLevel":"debug","message":"Found Ucus Ozet Devam Et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.islemIptal' and 'com.testinium.thy.StepImplementation.islemIptal'"}
+{"logLevel":"debug","message":"Found Islem iptal in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.kartBilgileriGir' and 'com.testinium.thy.StepImplementation.kartBilgileriGir'"}
+{"logLevel":"debug","message":"Found {} kartNo,{} kart tarih ve {} cvc bilgileri gir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.koltukSecIlerle' and 'com.testinium.thy.StepImplementation.koltukSecIlerle'"}
+{"logLevel":"debug","message":"Found Koltuk secimi ilerle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.yolcuBilgileri' and 'com.testinium.thy.StepImplementation.yolcuBilgileri'"}
+{"logLevel":"debug","message":"Found {} ad {} soyad {} gun {} ay {} yil {} email {} tc yolcu bilgileri Gir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.tarihBelirle' and 'com.testinium.thy.StepImplementation.tarihBelirle'"}
+{"logLevel":"debug","message":"Found Ucus tarihi belirle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.ucusYonleriniSec' and 'com.testinium.thy.StepImplementation.ucusYonleriniSec'"}
+{"logLevel":"debug","message":"Found {} Nereden {} nereye gidilecek in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.BaseTest.waitBySeconds' and 'com.testinium.thy.BaseTest.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.implementation2' and 'com.testinium.thy.StepImplementation.implementation2'"}
+{"logLevel":"debug","message":"Found {} Hes Kodu {} ulke kodu ve {} telefon bilgileri Gir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.thy.StepImplementation.tekYonSec' and 'com.testinium.thy.StepImplementation.tekYonSec'"}
+{"logLevel":"debug","message":"Found Tek yon sec in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tBilet Al Butonu tıkla : public void biletAl()"}
+{"logLevel":"debug","message":"\tUcus Sec : public void ucusSec()"}
+{"logLevel":"debug","message":"\tUcus Ozet Devam Et : public void ucusOzetDevam()"}
+{"logLevel":"debug","message":"\tThy Uygulamasını Aç : public void uygulamaAc()"}
+{"logLevel":"debug","message":"\t{} kartNo,{} kart tarih ve {} cvc bilgileri gir : public void kartBilgileriGir(String kartNo, String kartTarih, String csv)"}
+{"logLevel":"debug","message":"\t{} Nereden {} nereye gidilecek : public void ucusYonleriniSec(String from, String to)"}
+{"logLevel":"debug","message":"\t{} ad {} soyad {} gun {} ay {} yil {} email {} tc yolcu bilgileri Gir : public void yolcuBilgileri(String name, String surname, String gun, String ay, String yil, String email, String tcno)"}
+{"logLevel":"debug","message":"\tUcus tarihi belirle : public void tarihBelirle()"}
+{"logLevel":"debug","message":"\tKoltuk secimi ilerle : public void koltukSecIlerle()"}
+{"logLevel":"debug","message":"\tIslem iptal : public void islemIptal()"}
+{"logLevel":"debug","message":"\tUygun ucus ara : public void ucusAra()"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\tTek yon sec : public void tekYonSec()"}
+{"logLevel":"debug","message":"\t{} Hes Kodu {} ulke kodu ve {} telefon bilgileri Gir : public void implementation2(String hesKodu, String ulkeKodu, String tel)"}
+Ağu 19, 2020 1:17:27 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Thy Uygulamasını Aç' using 'class com.testinium.thy.StepImplementation.uygulamaAc"}
+{"logLevel":"info","message":"Uygulama başlatılıyor..."}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class com.testinium.thy.BaseTest.waitBySeconds"}
+{"logLevel":"debug","message":"Executing 'Bilet Al Butonu tıkla' using 'class com.testinium.thy.StepImplementation.biletAl"}
+{"logLevel":"info","message":"Bilet al butonuna tıklandı..."}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class com.testinium.thy.BaseTest.waitBySeconds"}
+{"logLevel":"debug","message":"Executing 'Tek yon sec' using 'class com.testinium.thy.StepImplementation.tekYonSec"}
+{"logLevel":"info","message":"Tek yön seçildi..."}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class com.testinium.thy.BaseTest.waitBySeconds"}
+{"logLevel":"debug","message":"Executing '{} Nereden {} nereye gidilecek' using 'class com.testinium.thy.StepImplementation.ucusYonleriniSec"}
+{"logLevel":"info","message":"Kalkış yönü Sabiha Gökçen olarak seçildi..."}
+{"logLevel":"info","message":"Varış yönü Esenboğa olarak seçildi..."}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class com.testinium.thy.BaseTest.waitBySeconds"}
+{"logLevel":"debug","message":"Executing 'Ucus tarihi belirle' using 'class com.testinium.thy.StepImplementation.tarihBelirle"}
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LQ0FEFC', ip: '192.168.1.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.turkishairlines.mobile...., appPackage: com.turkishairlines.mobile, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.turkishairlines.mobile...., appPackage: com.turkishairlines.mobile, automationName: uiautomator2, deviceName: emulator-5554, fullReset: false, newCommandTimeout: 3000, noReset: true, platformName: android, resetKeyboard: true, unicodeKeyboard: true, version: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.0.0, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, version: 8.0, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1ab1c6b8-6798-4768-ae58-bf38147fbff7
+*** Element info: {Using=id, value=1992b200-ec59-4b9a-b631-80ebaa37c798}
+{"logLevel":"info","message":"Bugunden 2 gun sonrası için ucuç tarihi seçildi..."}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class com.testinium.thy.BaseTest.waitBySeconds"}
+{"logLevel":"debug","message":"Executing 'Uygun ucus ara' using 'class com.testinium.thy.StepImplementation.ucusAra"}
+{"logLevel":"info","message":"Uçuş aranıyor..."}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class com.testinium.thy.BaseTest.waitBySeconds"}
+{"logLevel":"debug","message":"Executing 'Ucus Sec' using 'class com.testinium.thy.StepImplementation.ucusSec"}
